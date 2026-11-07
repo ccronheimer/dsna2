@@ -65,7 +65,7 @@ class Solution {
             maxArea = 20
             
         */
-        int maxContainer(std::vector<int> heights) {
+        int maxContainer(std::vector<int>& heights) {
            
             int maxArea = 0;
             int l = 0;
